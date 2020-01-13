@@ -1,0 +1,52 @@
+.Advertisement{
+    height: 81vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url("../images/field.jpg");
+    background-size: cover;
+    z-index: -10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    /* max-width: 500px; */
+    /* backgr */
+}
+/* 
+.Field{
+    margin: 0;
+    padding: 0;
+    display: block;
+    z-index: -10;
+} */
+
+.InviteText{
+    color: #F9F9F9;
+    z-index: -9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.UserName{
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.PlayText{
+    font-size: 0.9375m;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.Player{
+    position: absolute;
+    top: 35.5vh;
+    left: 46%;
+    height: 59vh;
+    min-width: 165px;
+    min-height: 388px;
+}

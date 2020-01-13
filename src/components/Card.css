@@ -1,0 +1,41 @@
+.Card{
+    height: 30vh;
+    width: 56vh;
+    background-image: url("../images/card.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    font-size: 0.9375em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 3vh;
+}
+
+/* @media only screen and (max-width: ){
+
+} */
+
+.Text1{
+    width: 27%;
+    font-weight: 500;
+}
+
+.Text2{
+    width: 25%;
+    color: #EA1A2D;
+    font-weight: bolder;
+    font-size: 54px;
+}
+
+.Text3{
+    width: 33%;
+    font-weight: 500;
+}
+
+.Text4{
+    width: 25%;
+    font-size: 23px;
+    font-weight: bold;
+}

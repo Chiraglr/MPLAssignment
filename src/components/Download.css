@@ -1,0 +1,36 @@
+.Download{
+    display: block;
+    height: 19vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.InstallDirections{
+    width: 100%;
+    text-align: center;
+    background-Color: #EDEDED;
+    font-weight: 500;
+    font-size: 0.7em;
+}
+
+.DownloadButton{
+    margin: 0;
+    /* margin-bottom: 20%; */
+    padding: 0;
+    border: 0;
+    height: 83%;
+    width: 56vh;
+    /* background-color: black; */
+    font-style: normal;
+    outline: none;
+    background-color: white;
+}
+
+.DownloadImage{
+    width: 56vh;
+    cursor: pointer;
+}
